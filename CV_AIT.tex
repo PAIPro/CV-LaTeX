@@ -1,0 +1,98 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,blue_esiea,a4paper]{awesome-source-cv}
+
+\usepackage{hyperref}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+\usepackage{background}
+
+
+\definecolor{BlueESIEA}{HTML}{4682B4}
+	%e82127}%4eb3c6}
+
+%\node[] at (3,0){};
+%\node[opacity=1,xshift=0,yshift=0, draw=BlueESIEA, align=right,text width=4cm,inner sep=1em, line width=0.5mm,text=black] at (-17,-1.5) {Curriculum Vitae};
+%\node[opacity=1,xshift=0,yshift=0,text=black] at(-2,-0.9) {à destination de\begingroup
+%\parbox{4cm}{\includegraphics[width=4cm]{img/Thales.png}}\endgroup};
+
+%\node[opacity=1,xshift=0,yshift=0, draw=BlueESIEA, align=right,text width=4cm,inner sep=1em, line width=0.5mm,text=black] at (2,0) {Curriculum Vitae};
+
+\backgroundsetup{contents={
+	\begin{tikzpicture}
+	\node[opacity=0.1,xshift=0,yshift=0] at(30,14) {\includegraphics[width=20cm]{img/a380_cutaway.jpg}};
+	%\node[opacity=1,xshift=0,yshift=0 ] at(9,-26) {\scalebox{1}[1]{\includegraphics[width=20cm]{img/TeslaBoard.jpg}}};
+	\node[opacity=0.075,xshift=0,yshift=0] at(8.5,-13) {\includegraphics[width=6cm]{img/Bloch_sphere.png}};
+	%\node[opacity=1,xshift=0,yshift=0] at(0,-10) {\includegraphics[width=1cm]{img/rubon16.eps}};
+	\node[opacity=1,xshift=0,yshift=0, draw=BlueESIEA, align=right,text width=4cm,inner sep=1em, line width=0.5mm,text=black] at (11,10) {Curriculum Vitae};
+	%\node[opacity=1,xshift=0,yshift=14,text=black] at(12.5,-0.25) {}%Créé pour \hspace{0cm} \begingroup
+	%\parbox{3cm}{}%\includegraphics[width=3cm]{img/Thales.png}}\endgroup};
+	\node[] at (-20,-40){};
+	%\node[opacity=1,xshift=0,yshift=0, draw=BlueESIEA, align=right,text width=4cm,inner sep=1em, line width=0.5mm,text=black] at (-17,-1.5) {Curriculum Vitae};
+	%\node[opacity=1,xshift=0,yshift=0,text=black] at(-3.5,-1.5) {created for \hspace{-0.75cm} \begingroup
+	%\parbox{3cm}{\includegraphics[width=3cm]{img/Tesla.png}}\endgroup};
+	\end{tikzpicture}
+}, angle=0, scale=1,opacity=0=,placement=top,position={0,6}}
+
+\name{PAI}{Pro}
+\photo{0.00005cm}{img/Profil}	
+\tagline{LaTeX User}
+\socialinfo{
+	\infos{dolor sit amet et}\\
+	\address{Lorem ipsum dolor sit amet consectetur adipiscr}\\
+	\email{lorem.ipsum@dolor.fr}\\
+	\smartphone{+33(6) 12 34 56 78}\\
+	\linkedin{lorem-ipsu}\\}
+%------------------------------------------
+\begin{document}
+
+\BgThispage
+\content{}%\input{Content/section_headline}}
+\makecvheader
+
+%--------------------SECTIONS-----------------------------------
+\vfill
+\input{Content/section_job}	
+\vfill
+\newpage
+\enskip
+\vfill
+\input{Content/section_experience_short}			
+%\vspace{-0.25cm}  
+\vfill
+\newpage
+\enskip
+\vfill
+\input{Content/section_competences}	
+%\vspace{-0.25cm}
+\vfill
+\input{Content/section_cert}	
+%\vspace{-0.25cm}
+\vfill
+\input{Content/section_scolarite}					
+%\vspace{-0.25cm}
+\vfill
+\input{Content/section_interets}					% Section intérêts
+\vfill
+
+%\includegraphics[]{img/Thales.png}
+
+%\begin{tikzpicture}
+%\node[opacity=1,xshift=0,yshift=0, draw=BlueESIEA, align=right,text width=4cm,inner sep=1em, line width=0.5mm,text=black] at (current page.north west) {Curriculum Vitae};
+%\node[opacity=1,xshift=-150,yshift=-25] at(current page.north east) {à destination de
+%	\begingroup
+%	\parbox{4cm}{\includegraphics[width=4cm]{img/Thales.png}}\endgroup};
+%\node[opacity=1,xshift=0,yshift=0] at(current page.north east) {\includegraphics[]{img/IT.png}};
+%\end{tikzpicture}
+\end{document}
