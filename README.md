@@ -3,6 +3,9 @@ Awesome Source CV - customized
 
 ![Static Badge](https://img.shields.io/badge/INCREMENT-1.0.0-ecf0f1?style=flat&logo=latex&labelColor=008080)
 
+> [!NOTE] Compilation
+> compiled with lualatex.exe
+
 ## About
 
 **Awesome Source Latex CV** is based on a CV template created by Alessandro Plasmati. The original template use _XeLaTeX_ engine and _[Fontin Sans](http://www.exljbris.com/fontinsans.html)_ font. 
